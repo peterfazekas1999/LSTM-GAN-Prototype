@@ -4,4 +4,4 @@ This is a prototype model for exoplanet transit curve generation. The generator 
 The data from Kaggle can be downloaded from this link: https://www.kaggle.com/keplersmachines/kepler-labelled-time-series-data
 
 As a reference, this is a real transit curve for an exoplanet. 
-![real_exoplanet](https://github.com/peterfazekas1999/LSTM-GAN-Prototype/blob/master/GAN-LSTM%20generated/GAN_3_real.jpg)
+![real_exoplanet](https://github.com/peterfazekas1999/LSTM-GAN-Prototype/blob/master/GAN-LSTM%20generated/GAN_3_real.jpg = 250x250)
