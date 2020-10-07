@@ -1,6 +1,8 @@
 # LSTM-GAN-Prototype
 The saved model is too large to upload on GitHub but the code includes the training and the saving of the models.
+<br />
 Run the exogen-notebook.ipynb to train the GAN and the LSTM classifier and save the trained model.
+<br />
 Run BATMAN-GAN.ipynb to generate artificial exoplanet-like light curves using the trained GAN and the BATMAN package.
 
 This is a prototype model for exoplanet transit curve generation. The generator uses a Fully connected layer which takes in a random sequence of data and outputs a lightcurve-like graph when plotted. The discriminator consists of LSTM layers stacked on top of each other which uses the labelled Kaggle data as well as the output of the Generator and classifies the generated lightcurve during training depending on whether it represents an exoplanet or not. This is only a prototype model for my Masters research project, in the future I plan to improve the model architecture to generate more realistic "exoplanets". The ultimate goal of this model is to generate exoplanets which look real to us but it could potentially fool a ML model.
