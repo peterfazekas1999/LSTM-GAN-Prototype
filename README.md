@@ -1,7 +1,9 @@
 # LSTM-GAN-Prototype
 The saved model is too large to upload on GitHub but the code includes the training and the saving of the models.
 <br />
+<br />
 Run the exogen-notebook.ipynb to train the GAN and the LSTM classifier and save the trained model.
+<br />
 <br />
 Run BATMAN-GAN.ipynb to generate artificial exoplanet-like light curves using the trained GAN and the BATMAN package.
 
