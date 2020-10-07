@@ -25,7 +25,7 @@ The first image is the output of the GAN, the second image is the same output af
 <img src="https://github.com/peterfazekas1999/LSTM-GAN-Prototype/blob/master/GAN_BTM.png" width ="300">
 
 Below is the performance of the classifier trained on the Kaggle dataset, the output is 0 (No exoplanet) and 1 (if there is an exoplanet). I have used the model to make a prediction on 5 generated images.
-(Prediction 2) refers to the images above, without BATMAN, the classifier is not fooled. However after inserting artificial transits the classifier outputs 0.97, it is very confident that the lightcurve contains an exoplanet.
+(Prediction 2) refers to the images above. Without BATMAN, the classifier is not fooled. However after inserting artificial transits the classifier outputs 0.97, it is very confident that the lightcurve contains an exoplanet.
 <img src="https://github.com/peterfazekas1999/LSTM-GAN-Prototype/blob/master/prediction.png" width ="1000">
 
 
