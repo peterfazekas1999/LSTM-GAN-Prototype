@@ -17,6 +17,9 @@ As a reference, these are real transit curve for an exoplanet. <br />
 <img src="https://github.com/peterfazekas1999/LSTM-GAN-Prototype/blob/master/GAN-LSTM%20generated/GAN_3_real.jpg" width ="300">
 <img src="https://github.com/peterfazekas1999/LSTM-GAN-Prototype/blob/master/GAN-LSTM%20generated/real_curve.png" width ="300">
 
+The 2 images below are examples from the GAN
+<br />
+
 The first image is the output of the GAN, the second image is the same output after artificially inserting exoplanet transits.<br />
 <img src="https://github.com/peterfazekas1999/LSTM-GAN-Prototype/blob/master/GAN_output.png" width ="300">
 <img src="https://github.com/peterfazekas1999/LSTM-GAN-Prototype/blob/master/GAN_BTM.png" width ="300">
