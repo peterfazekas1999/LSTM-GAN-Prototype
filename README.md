@@ -1,4 +1,6 @@
 # LSTM-GAN-Prototype
+The random perturb folder contains the verification of the theoretical proposed bound. It simulates random perturbations and finds the radius required for a specific proportion of misclassification. differential.py calculates the hessian and 3rd order partial derivative tensor for a feedforward function as well as calculating the constants needed for the bound in the theorem. In this case an example of a 1 hidden layer ANN separatin 2 sets of points in a 2 dimensional plane has been used for demonstration purposes.
+<br/>
 The saved model is too large to upload on GitHub but the code includes the training and the saving of the models.
 <br />
 <br />
