@@ -93,11 +93,9 @@ print(prediction)
 plt.scatter(training_input[:,0],training_input[:,1],c = color)
 plt.scatter(test[0],test[1],c = "r")
 #plt.show()
-
 def plot_dec_bound():
     cmap='Paired'
     cmap = plt.get_cmap(cmap)
-
     h = 1000  # step size in the mesh
     #create a mesh to plot in
     #x_min, x_max = training_input[:, 0].min()-1 , training_input[:, 0].max()+1 
@@ -105,7 +103,6 @@ def plot_dec_bound():
     xx, yy = np.meshgrid(np.linspace(-1, 2, h),
                        np.linspace(-1,2, h))
     data1 = np.c_[xx.ravel(), yy.ravel()]
-
     Z = predict(data1,w1n,w2n,b1n,b2n)
     Z = Z.reshape(xx.shape)
     plt.contour(xx,yy,Z,alpha = 0.2)

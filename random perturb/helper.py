@@ -7,6 +7,7 @@ Created on Mon Nov  9 14:03:15 2020
 
 from sympy import symbols, diff
 import numpy as np
+from sklearn import datasets
 import math as m
 import random
 import matplotlib.pyplot as plt
@@ -15,7 +16,7 @@ training_input, training_output = datasets.make_moons(200,noise = 0.1)
 color = training_output
 def sigmoid(x):
     return 1.0/(1.0+np.exp(-x))
-
+#setting up weights after training
 w1n = np.array([[-8.69413149,9.35492699,6.83860075],
        [ 7.20170118,7.03754429,-4.91852026]])
 w2n = np.array([[ 11.92907,-11.92453376],
@@ -64,13 +65,12 @@ plot_arrx =[]
 plot_arry =[]
 delta=-1000
 radius=0
-while(delta<0.1):
+while(delta<=0.1):
     zeros=0
     ones=0
     plot_arrx =[]
     plot_arry =[]
-    
-    for i in range(500):
+    for i in range(1000):
         data=uniform(test,radius)
         output =predict(data,w1n,w2n,b1n,b2n)
         plot_arrx.append(data[0][0])
@@ -81,7 +81,7 @@ while(delta<0.1):
         else:
             ones+=1
     delta=zeros/(ones+zeros)
-    radius+=0.01
+    radius+=0.0001
 
 def predict_argm(data,weight1,weight2,bias1,bias2):
     l1 = data.dot(weight1)+bias1
