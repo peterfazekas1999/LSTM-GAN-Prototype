@@ -50,7 +50,7 @@ def adversarial(test):
         #print([r,value])
     return r
 r=adversarial(test)
-
+print("adversarial: ",r)
 def uniform(test,r):
     circle_x = test[0][0]
     circle_y = test[0][1]
