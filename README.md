@@ -29,5 +29,10 @@ The first image is the output of the GAN, the second image is the same output af
 Below is the performance of the classifier trained on the Kaggle dataset, the output is 0 (No exoplanet) and 1 (if there is an exoplanet). I have used the model to make a prediction on 5 generated images.
 (Prediction 2) refers to the images above. Without BATMAN, the classifier is not fooled. However after inserting artificial transits the classifier outputs 0.97, it is very confident that the lightcurve contains an exoplanet.
 <img src="https://github.com/peterfazekas1999/LSTM-GAN-Prototype/blob/master/prediction.png" width ="1000">
-
-
+<br />
+<br />
+Picking 2 random axes and creating a mesh allows the visualization of slices of higher dimensional decision boundaries. The images below show what the 2-dimensional slices of these boundaries look like.
+<br />
+<br />
+<img src="https://github.com/peterfazekas1999/Masters-Project/blob/master/exo_decisionB%20results/exobound_17.jpg" width ="500">
+<img src="https://github.com/peterfazekas1999/Masters-Project/blob/master/exo_decisionB%20results/exobound_25.jpg" width ="500">
